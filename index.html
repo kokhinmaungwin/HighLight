@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bro Codebox Demo</title>
 
+  <!-- Highlight.js CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kokhinmaungwin/HighLight/highlight.css" />
+  <script src="https://cdn.jsdelivr.net/gh/kokhinmaungwin/HighLight/highlight.js" defer></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Your code boxes here -->
+<div class="bro-box" data-lang="auto">
+  <div class="bro-header"></div>
+ <pre class="bro-pre"><code>const x = 10;
+
+// Demo highlight
+function test(){
+    console.log("Hello World!");
+}
+
+for(let i = 0; i &lt; x; i++){
+    console.log(i);
+}
+  </code></pre>
+</div>
+<!-- Add more .broCodeBox as needed -->
+  <!-- Main JS -->
+  <script src="main.js" defer></script>
+</body>
+</html>
