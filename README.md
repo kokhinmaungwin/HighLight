@@ -41,7 +41,7 @@ and all required CSS + JS files can be loaded directly via CDN for quick and eff
 Use CDN (recommended):
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/kokhinmaungwin/HighLight/highlight.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kokhinmaungwin/HighLight/highlight.css">
 
 ```
 
